@@ -3,7 +3,7 @@ import numpy as np
 import dlib
 import pandas
 import matplotlib
-#import keras
+
 cap = cv2.VideoCapture(0)
 
 detector = dlib.get_frontal_face_detector()
